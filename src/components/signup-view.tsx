@@ -169,10 +169,10 @@ export function SignupView({
         </div>
 
         <p className="mt-6 text-center text-xs text-muted-foreground">
-          OpenRecruitOS Community Edition · Self-hosted · MIT licensed
+           · Self-hosted · MIT licensed
         </p>
         <p className="mt-1 text-center text-xs text-muted-foreground">
-          A product of {APP_COMPANY} ·{" "}
+           {APP_COMPANY} ·{" "}
           <a
             href={APP_WEBSITE_URL}
             target="_blank"

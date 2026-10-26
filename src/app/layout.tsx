@@ -14,20 +14,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://attitude360.in"),
-  title: "OpenRecruitOS — The Open Source Recruitment Operating System",
+  title: "HireFlow | Recruitment Management",
   description:
-    "OpenRecruitOS is a simple, self-hostable, open-source Applicant Tracking System by Attitude360 (Attitude TalentBridge LLP). Jobs, candidates, pipeline, interviews and dashboard.",
+    "HireFlow is a smart recruitment and applicant tracking platform for managing jobs, candidates, applications, interviews, and recruitment analytics. Developed by Pratyush Choudhury.",
+  applicationName: "HireFlow",
   keywords: [
-    "ATS",
+    "HireFlow",
     "Applicant Tracking System",
-    "Open Source",
-    "Recruitment",
-    "OpenRecruitOS",
-    "Attitude360",
-    "Attitude TalentBridge LLP",
+    "Recruitment Management",
+    "Candidate Management",
+    "Job Management",
+    "Interview Scheduling",
+    "Recruitment Analytics",
   ],
-  authors: [{ name: "Attitude TalentBridge LLP", url: "https://attitude360.in" }],
+  authors: [{ name: "Pratyush Choudhury" }],
+  creator: "Pratyush Choudhury",
+  openGraph: {
+    title: "HireFlow | Recruitment Management",
+    description:
+      "Smart Recruitment & Applicant Tracking. Manage jobs, candidates, applications, and interviews in one place.",
+    siteName: "HireFlow",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HireFlow | Recruitment Management",
+    description:
+      "Smart Recruitment & Applicant Tracking. Developed by Pratyush Choudhury.",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "48x48" },
@@ -37,13 +52,6 @@ export const metadata: Metadata = {
       { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: "/apple-touch-icon.png",
-  },
-  openGraph: {
-    title: "OpenRecruitOS",
-    description: "The Open Source Recruitment Operating System — by Attitude360 (Attitude TalentBridge LLP)",
-    siteName: "OpenRecruitOS",
-    url: "https://attitude360.in",
-    type: "website",
   },
 };
 

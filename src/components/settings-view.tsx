@@ -174,7 +174,7 @@ export function SettingsView({
         <div className="mt-4 flex flex-col gap-2 border-t pt-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold">{APP_COMPANY}</p>
-            <p className="text-xs text-muted-foreground">The company behind OpenRecruitOS</p>
+            <p className="text-xs text-muted-foreground">GO TO HOME PAGE</p>
           </div>
           <a
             href={APP_WEBSITE_URL}
