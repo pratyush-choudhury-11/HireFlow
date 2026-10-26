@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build && node -e \"const fs=require('fs');for(const [src,dst] of [['.next/static','.next/standalone/.next/static'],['public','.next/standalone/public']]){if(fs.existsSync(src)){fs.mkdirSync(require('path').dirname(dst),{recursive:true});fs.cpSync(src,dst,{recursive:true})}}\"",
+    "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:push": "prisma db push --accept-data-loss",
